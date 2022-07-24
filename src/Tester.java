@@ -16,7 +16,7 @@ class Tester{
 	
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter input string to check for palindrome:");
+		System.out.println("Enter the input string to check:");
 		String str = sc.nextLine();
 		if(checkPalindrome(str))
 			System.out.println("The string is a palindrome!");
